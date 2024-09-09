@@ -347,8 +347,8 @@ importers:
         specifier: 1.6.3
         version: 1.6.3(@vanilla-extract/css@1.15.5(babel-plugin-macros@3.1.0))
       clsx:
-        specifier: 2.1.0
-        version: 2.1.0
+        specifier: 2.1.1
+        version: 2.1.1
       qrcode:
         specifier: 1.5.3
         version: 1.5.3
@@ -356,11 +356,11 @@ importers:
         specifier: '>=18'
         version: 18.3.0(react@18.3.1)
       react-remove-scroll:
-        specifier: 2.5.7
-        version: 2.5.7(@types/react@18.3.5)(react@18.3.1)
+        specifier: 2.6.0
+        version: 2.6.0(@types/react@18.3.5)(react@18.3.1)
       ua-parser-js:
-        specifier: ^1.0.37
-        version: 1.0.37
+        specifier: ^1.0.38
+        version: 1.0.38
       viem:
         specifier: 2.x
         version: 2.17.0(bufferutil@4.0.8)(typescript@5.5.2)(utf-8-validate@5.0.10)(zod@3.23.8)
@@ -399,8 +399,8 @@ importers:
         specifier: ^25.0.0
         version: 25.0.0(bufferutil@4.0.8)(utf-8-validate@5.0.10)
       nock:
-        specifier: ^13.4.0
-        version: 13.4.0
+        specifier: ^13.5.5
+        version: 13.5.5
       postcss:
         specifier: ^8.4.45
         version: 8.4.45
@@ -475,8 +475,8 @@ importers:
         specifier: 1.6.3
         version: 1.6.3(@vanilla-extract/css@1.15.5(babel-plugin-macros@3.1.0))
       clsx:
-        specifier: 2.1.0
-        version: 2.1.0
+        specifier: 2.1.1
+        version: 2.1.1
       copy-to-clipboard:
         specifier: ^3.3.1
         version: 3.3.1
@@ -5690,8 +5690,8 @@ packages:
     resolution: {integrity: sha512-EcR6r5a8bj6pu3ycsa/E/cKVGuTgZJZdsyUYHOksG/UHIiKfjxzRxYJpyVBwYaQeOvghal9fcc4PidlgzugAQg==}
     engines: {node: '>=6'}
 
-  clsx@2.1.0:
-    resolution: {integrity: sha512-m3iNNWpd9rl3jvvcBnu70ylMdrXt8Vlq4HYadnU5fwcOtvkSQWPmj7amUcDT2qYI7risszBjI5AUIUox9D16pg==}
+  clsx@2.1.1:
+    resolution: {integrity: sha512-eYm0QWBtUrBWZWG0d386OGAw16Z995PiOVo2B7bjWSbHedGl5e0ZWaq65kOGgUSNesEIDkB9ISbTg/JK9dhCZA==}
     engines: {node: '>=6'}
 
   cluster-key-slot@1.1.2:
@@ -6104,15 +6104,6 @@ packages:
 
   debug@3.2.7:
     resolution: {integrity: sha512-CFjzYYAi4ThfiQvizrFQevTTXHtnCqWfe7x1AhgEscTz6ZbLbfoLRLPugTQyBth6f8ZERVUSyWHFD/7Wu4t1XQ==}
-    peerDependencies:
-      supports-color: '*'
-    peerDependenciesMeta:
-      supports-color:
-        optional: true
-
-  debug@4.3.4:
-    resolution: {integrity: sha512-PRWFHuSU3eDtQJPvnNY7Jcket1j0t5OuOsFzPPzsekD52Zl8qUfFIPEiswXqIvHWGVHOgX+7G/vCNNhehwxfkQ==}
-    engines: {node: '>=6.0'}
     peerDependencies:
       supports-color: '*'
     peerDependenciesMeta:
@@ -8951,8 +8942,8 @@ packages:
     resolution: {integrity: sha512-WDD0bdg9mbq6F4mRxEYcPWwfA1vxd0mrvKOyxI7Xj/atfRHVeutzuWByG//jfm4uPzp0y4Kj051EORCBSQMycw==}
     engines: {node: '>=12.0.0'}
 
-  nock@13.4.0:
-    resolution: {integrity: sha512-W8NVHjO/LCTNA64yxAPHV/K47LpGYcVzgKd3Q0n6owhwvD0Dgoterc25R4rnZbckJEb6Loxz1f5QMuJpJnbSyQ==}
+  nock@13.5.5:
+    resolution: {integrity: sha512-XKYnqUrCwXC8DGG1xX4YH5yNIrlh9c065uaMZZHUoeUUINTOyt+x/G+ezYk0Ft6ExSREVIs+qBJDK503viTfFA==}
     engines: {node: '>= 10.13'}
 
   node-abort-controller@3.1.1:
@@ -10195,6 +10186,16 @@ packages:
       '@types/react':
         optional: true
 
+  react-remove-scroll-bar@2.3.6:
+    resolution: {integrity: sha512-DtSYaao4mBmX+HDo5YWYdBWQwYIQQshUV/dVxFxK+KM26Wjwp1gZ6rv6OC3oujI6Bfu6Xyg3TwK533AQutsn/g==}
+    engines: {node: '>=10'}
+    peerDependencies:
+      '@types/react': ^16.8.0 || ^17.0.0 || ^18.0.0
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+    peerDependenciesMeta:
+      '@types/react':
+        optional: true
+
   react-remove-scroll@2.5.5:
     resolution: {integrity: sha512-ImKhrzJJsyXJfBZ4bzu8Bwpka14c/fQt0k+cyFp/PBhTfyDnU5hjOtM4AG/0AMyy8oKzOTR0lDgJIM7pYXI0kw==}
     engines: {node: '>=10'}
@@ -10205,8 +10206,8 @@ packages:
       '@types/react':
         optional: true
 
-  react-remove-scroll@2.5.7:
-    resolution: {integrity: sha512-FnrTWO4L7/Bhhf3CYBNArEG/yROV0tKmTv7/3h9QCFvH6sndeFf1wPqOcbFVu5VAulS5dV1wGT3GZZ/1GawqiA==}
+  react-remove-scroll@2.6.0:
+    resolution: {integrity: sha512-I2U4JVEsQenxDAKaVa3VZ/JeJZe0/2DxPWL8Tj8yLKctQJQiZM52pn/GWFpSp8dftjM3pSAHVJZscAnC/y+ySQ==}
     engines: {node: '>=10'}
     peerDependencies:
       '@types/react': ^16.8.0 || ^17.0.0 || ^18.0.0
@@ -11271,9 +11272,6 @@ packages:
   tslib@2.5.0:
     resolution: {integrity: sha512-336iVw3rtn2BUK7ORdIAHTyxHGRIHVReokCR3XjbckJMK7ms8FysBfhLR8IXnAgy7T0PTPNBWKiH514FOW/WSg==}
 
-  tslib@2.6.2:
-    resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==}
-
   tslib@2.7.0:
     resolution: {integrity: sha512-gLXCKdN1/j47AiHiOkJN69hJmcbGTHI0ImLmbYLHykhgeN0jVGola9yVjFgzCUklsZQMW55o+dW7IXv3RCXDzA==}
 
@@ -11348,8 +11346,8 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
-  ua-parser-js@1.0.37:
-    resolution: {integrity: sha512-bhTyI94tZofjo+Dn8SN6Zv8nBDvyXTymAdM3LDI/0IboIUwTu1rEhW7v2TfiVsoYWgkQ4kOVqnI8APUFbIQIFQ==}
+  ua-parser-js@1.0.38:
+    resolution: {integrity: sha512-Aq5ppTOfvrCMgAPneW1HfWj66Xi7XL+/mIy996R1/CLS/rcyJQm6QZdsKrUeivDFQ+Oc9Wyuwor8Ze8peEoUoQ==}
 
   ufo@1.1.2:
     resolution: {integrity: sha512-TrY6DsjTQQgyS3E3dBaOXf0TpPD8u9FVrVYmKVegJuFw51n/YB9XPt+U6ydzFG5ZIN7+DIjPbNmXoBj9esYhgQ==}
@@ -14483,7 +14481,7 @@ snapshots:
       '@babel/helper-split-export-declaration': 7.24.5
       '@babel/parser': 7.24.5
       '@babel/types': 7.24.5
-      debug: 4.3.4
+      debug: 4.3.7
       globals: 11.12.0
     transitivePeerDependencies:
       - supports-color
@@ -15921,31 +15919,31 @@ snapshots:
   '@formatjs/ecma402-abstract@1.11.4':
     dependencies:
       '@formatjs/intl-localematcher': 0.2.25
-      tslib: 2.5.0
+      tslib: 2.7.0
 
   '@formatjs/ecma402-abstract@1.17.2':
     dependencies:
       '@formatjs/intl-localematcher': 0.4.2
-      tslib: 2.5.0
+      tslib: 2.7.0
 
   '@formatjs/fast-memoize@1.2.1':
     dependencies:
-      tslib: 2.5.0
+      tslib: 2.7.0
 
   '@formatjs/icu-messageformat-parser@2.1.0':
     dependencies:
       '@formatjs/ecma402-abstract': 1.11.4
       '@formatjs/icu-skeleton-parser': 1.3.6
-      tslib: 2.5.0
+      tslib: 2.7.0
 
   '@formatjs/icu-skeleton-parser@1.3.6':
     dependencies:
       '@formatjs/ecma402-abstract': 1.11.4
-      tslib: 2.6.2
+      tslib: 2.7.0
 
   '@formatjs/intl-localematcher@0.2.25':
     dependencies:
-      tslib: 2.6.2
+      tslib: 2.7.0
 
   '@formatjs/intl-localematcher@0.2.32':
     dependencies:
@@ -15953,7 +15951,7 @@ snapshots:
 
   '@formatjs/intl-localematcher@0.4.2':
     dependencies:
-      tslib: 2.5.0
+      tslib: 2.7.0
 
   '@grpc/grpc-js@1.8.14':
     dependencies:
@@ -16254,7 +16252,7 @@ snapshots:
   '@js-temporal/polyfill@0.4.4':
     dependencies:
       jsbi: 4.3.0
-      tslib: 2.5.0
+      tslib: 2.7.0
 
   '@jspm/core@2.0.1': {}
 
@@ -16630,8 +16628,8 @@ snapshots:
     dependencies:
       '@ethereumjs/tx': 4.2.0
       '@metamask/superstruct': 3.1.0
-      '@noble/hashes': 1.5.0
-      '@scure/base': 1.1.8
+      '@noble/hashes': 1.4.0
+      '@scure/base': 1.1.6
       '@types/debug': 4.1.12
       debug: 4.3.7
       pony-cause: 2.1.11
@@ -16977,11 +16975,11 @@ snapshots:
     dependencies:
       asn1js: 3.0.5
       pvtsutils: 1.3.2
-      tslib: 2.5.0
+      tslib: 2.7.0
 
   '@peculiar/json-schema@1.1.12':
     dependencies:
-      tslib: 2.5.0
+      tslib: 2.7.0
 
   '@peculiar/webcrypto@1.4.3':
     dependencies:
@@ -18256,7 +18254,7 @@ snapshots:
   '@swc/helpers@0.5.5':
     dependencies:
       '@swc/counter': 0.1.3
-      tslib: 2.6.2
+      tslib: 2.7.0
 
   '@tanstack/query-core@5.51.9': {}
 
@@ -18633,7 +18631,7 @@ snapshots:
       '@typescript-eslint/scope-manager': 5.62.0
       '@typescript-eslint/type-utils': 5.62.0(eslint@8.15.0)(typescript@5.5.2)
       '@typescript-eslint/utils': 5.62.0(eslint@8.15.0)(typescript@5.5.2)
-      debug: 4.3.5
+      debug: 4.3.7
       eslint: 8.15.0
       graphemer: 1.4.0
       ignore: 5.3.1
@@ -18658,7 +18656,7 @@ snapshots:
       '@typescript-eslint/scope-manager': 5.62.0
       '@typescript-eslint/types': 5.62.0
       '@typescript-eslint/typescript-estree': 5.62.0(typescript@5.5.2)
-      debug: 4.3.5
+      debug: 4.3.7
       eslint: 8.15.0
     optionalDependencies:
       typescript: 5.5.2
@@ -20284,7 +20282,7 @@ snapshots:
 
   aria-hidden@1.2.3:
     dependencies:
-      tslib: 2.5.0
+      tslib: 2.7.0
 
   aria-query@5.1.3:
     dependencies:
@@ -20378,7 +20376,7 @@ snapshots:
     dependencies:
       pvtsutils: 1.3.2
       pvutils: 1.1.3
-      tslib: 2.5.0
+      tslib: 2.7.0
 
   assertion-error@2.0.1: {}
 
@@ -20836,7 +20834,7 @@ snapshots:
   camel-case@4.1.2:
     dependencies:
       pascal-case: 3.1.2
-      tslib: 2.5.0
+      tslib: 2.7.0
 
   camelcase-css@2.0.1: {}
 
@@ -21009,7 +21007,7 @@ snapshots:
 
   clsx@1.2.1: {}
 
-  clsx@2.1.0: {}
+  clsx@2.1.1: {}
 
   cluster-key-slot@1.1.2: {}
 
@@ -21441,10 +21439,6 @@ snapshots:
     dependencies:
       ms: 2.1.3
 
-  debug@4.3.4:
-    dependencies:
-      ms: 2.1.2
-
   debug@4.3.5:
     dependencies:
       ms: 2.1.2
@@ -21640,7 +21634,7 @@ snapshots:
   dot-case@3.0.4:
     dependencies:
       no-case: 3.0.4
-      tslib: 2.6.2
+      tslib: 2.7.0
 
   dot-prop@5.3.0:
     dependencies:
@@ -23173,7 +23167,7 @@ snapshots:
   http-proxy-agent@7.0.2:
     dependencies:
       agent-base: 7.1.0
-      debug: 4.3.5
+      debug: 4.3.7
     transitivePeerDependencies:
       - supports-color
 
@@ -23209,7 +23203,7 @@ snapshots:
   https-proxy-agent@7.0.5:
     dependencies:
       agent-base: 7.1.0
-      debug: 4.3.5
+      debug: 4.3.7
     transitivePeerDependencies:
       - supports-color
 
@@ -23328,7 +23322,7 @@ snapshots:
       '@formatjs/ecma402-abstract': 1.11.4
       '@formatjs/fast-memoize': 1.2.1
       '@formatjs/icu-messageformat-parser': 2.1.0
-      tslib: 2.5.0
+      tslib: 2.7.0
 
   invariant@2.2.4:
     dependencies:
@@ -25436,9 +25430,9 @@ snapshots:
 
   nocache@3.0.4: {}
 
-  nock@13.4.0:
+  nock@13.5.5:
     dependencies:
-      debug: 4.3.4
+      debug: 4.3.7
       json-stringify-safe: 5.0.1
       propagate: 2.0.1
     transitivePeerDependencies:
@@ -25786,7 +25780,7 @@ snapshots:
   param-case@3.0.4:
     dependencies:
       dot-case: 3.0.4
-      tslib: 2.6.2
+      tslib: 2.7.0
 
   parent-module@1.0.1:
     dependencies:
@@ -25830,7 +25824,7 @@ snapshots:
   pascal-case@3.1.2:
     dependencies:
       no-case: 3.0.4
-      tslib: 2.6.2
+      tslib: 2.7.0
 
   path-exists@3.0.0: {}
 
@@ -26569,7 +26563,7 @@ snapshots:
 
   pvtsutils@1.3.2:
     dependencies:
-      tslib: 2.5.0
+      tslib: 2.7.0
 
   pvutils@1.1.3: {}
 
@@ -26906,7 +26900,15 @@ snapshots:
     dependencies:
       react: 18.3.1
       react-style-singleton: 2.2.1(@types/react@18.3.5)(react@18.3.1)
-      tslib: 2.5.0
+      tslib: 2.7.0
+    optionalDependencies:
+      '@types/react': 18.3.5
+
+  react-remove-scroll-bar@2.3.6(@types/react@18.3.5)(react@18.3.1):
+    dependencies:
+      react: 18.3.1
+      react-style-singleton: 2.2.1(@types/react@18.3.5)(react@18.3.1)
+      tslib: 2.7.0
     optionalDependencies:
       '@types/react': 18.3.5
 
@@ -26915,18 +26917,18 @@ snapshots:
       react: 18.3.1
       react-remove-scroll-bar: 2.3.4(@types/react@18.3.5)(react@18.3.1)
       react-style-singleton: 2.2.1(@types/react@18.3.5)(react@18.3.1)
-      tslib: 2.5.0
+      tslib: 2.7.0
       use-callback-ref: 1.3.0(@types/react@18.3.5)(react@18.3.1)
       use-sidecar: 1.1.2(@types/react@18.3.5)(react@18.3.1)
     optionalDependencies:
       '@types/react': 18.3.5
 
-  react-remove-scroll@2.5.7(@types/react@18.3.5)(react@18.3.1):
+  react-remove-scroll@2.6.0(@types/react@18.3.5)(react@18.3.1):
     dependencies:
       react: 18.3.1
-      react-remove-scroll-bar: 2.3.4(@types/react@18.3.5)(react@18.3.1)
+      react-remove-scroll-bar: 2.3.6(@types/react@18.3.5)(react@18.3.1)
       react-style-singleton: 2.2.1(@types/react@18.3.5)(react@18.3.1)
-      tslib: 2.5.0
+      tslib: 2.7.0
       use-callback-ref: 1.3.0(@types/react@18.3.5)(react@18.3.1)
       use-sidecar: 1.1.2(@types/react@18.3.5)(react@18.3.1)
     optionalDependencies:
@@ -27035,7 +27037,7 @@ snapshots:
       get-nonce: 1.0.1
       invariant: 2.2.4
       react: 18.3.1
-      tslib: 2.5.0
+      tslib: 2.7.0
     optionalDependencies:
       '@types/react': 18.3.5
 
@@ -27723,7 +27725,7 @@ snapshots:
 
   spdy@4.0.2:
     dependencies:
-      debug: 4.3.5
+      debug: 4.3.7
       handle-thing: 2.0.1
       http-deceiver: 1.2.7
       select-hose: 2.0.0
@@ -28214,8 +28216,6 @@ snapshots:
 
   tslib@2.5.0: {}
 
-  tslib@2.6.2: {}
-
   tslib@2.7.0: {}
 
   tsutils@3.21.0(typescript@5.5.2):
@@ -28285,7 +28285,7 @@ snapshots:
 
   typescript@5.5.2: {}
 
-  ua-parser-js@1.0.37: {}
+  ua-parser-js@1.0.38: {}
 
   ufo@1.1.2: {}
 
@@ -28453,7 +28453,7 @@ snapshots:
   use-callback-ref@1.3.0(@types/react@18.3.5)(react@18.3.1):
     dependencies:
       react: 18.3.1
-      tslib: 2.5.0
+      tslib: 2.7.0
     optionalDependencies:
       '@types/react': 18.3.5
 
@@ -28473,7 +28473,7 @@ snapshots:
     dependencies:
       detect-node-es: 1.1.0
       react: 18.3.1
-      tslib: 2.5.0
+      tslib: 2.7.0
     optionalDependencies:
       '@types/react': 18.3.5
 
@@ -28635,7 +28635,7 @@ snapshots:
   vite-node@2.0.5(@types/node@20.14.8)(terser@5.32.0):
     dependencies:
       cac: 6.7.14
-      debug: 4.3.5
+      debug: 4.3.7
       pathe: 1.1.2
       tinyrainbow: 1.2.0
       vite: 5.4.2(@types/node@20.14.8)(terser@5.32.0)
@@ -28653,7 +28653,7 @@ snapshots:
   vite-node@2.0.5(@types/node@20.16.5)(terser@5.32.0):
     dependencies:
       cac: 6.7.14
-      debug: 4.3.5
+      debug: 4.3.7
       pathe: 1.1.2
       tinyrainbow: 1.2.0
       vite: 5.4.2(@types/node@20.16.5)(terser@5.32.0)
@@ -28943,7 +28943,7 @@ snapshots:
       '@peculiar/json-schema': 1.1.12
       asn1js: 3.0.5
       pvtsutils: 1.3.2
-      tslib: 2.5.0
+      tslib: 2.7.0
 
   webextension-polyfill@0.10.0: {}
 
